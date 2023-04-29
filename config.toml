@@ -1,0 +1,8 @@
+baseURL = "https://thingshappenhere.github.io/"
+languageCode = "en"
+title = "Things Happen Here"
+
+[params]
+  author = "alexmakerarts"
+
+disableKinds = ["taxonomy"]
