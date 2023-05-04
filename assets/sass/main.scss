@@ -504,7 +504,57 @@ img {
    margin-left: auto;
    margin-right: auto;   
   }
+
+  .top-nav__link {
+    display: block;
+    width: 230px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+.left-content {
+  display: none;
 }
+
+.top-nav__logo {
+  width: 200px;
+  -webkit-filter: invert(100%);
+}
+
+.container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+footer {
+  padding-left:20px;
+ text-align: center;
+}
+
+.dropbtn {
+  color: #ffffff;
+}
+
+.footer-content {
+  font-size: small;
+
+
+  &__site-name {
+    font-size: medium;
+  }
+
+}
+
+.footer-social {
+  padding-left: 40px;
+}
+
+.maps {
+  width: 250px;
+  height: 400px;
+}
+}
+
 
 /* Tablet menu */
 @media(max-width:1024px){
@@ -532,7 +582,7 @@ img {
 
   
   .dropbtn {
-    color: #414141;
+    color: #ffffff;
     padding: 16px;
     font-size: 32px;
     border: none;
